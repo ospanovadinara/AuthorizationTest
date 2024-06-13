@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  AuthorizationTest
 //
 //  Created by Dinara on 12.06.2024.
@@ -7,7 +7,8 @@
 
 import UIKit
 
-final class ViewController: UIViewController {
+// MARK: - Class MainViewController
+final class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
