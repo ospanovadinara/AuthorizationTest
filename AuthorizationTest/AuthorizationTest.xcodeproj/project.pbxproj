@@ -13,12 +13,15 @@
 		270D47F92C19C9BE0078DDF0 /* AuthorizationTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 270D47F72C19C9BE0078DDF0 /* AuthorizationTest.xcdatamodeld */; };
 		270D47FB2C19C9BF0078DDF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270D47FA2C19C9BF0078DDF0 /* Assets.xcassets */; };
 		270D47FE2C19C9BF0078DDF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270D47FC2C19C9BF0078DDF0 /* LaunchScreen.storyboard */; };
-		270D48092C1AC65D0078DDF0 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 270D48082C1AC65D0078DDF0 /* SF-Pro-Display-Bold.otf */; };
-		270D480B2C1AC6680078DDF0 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 270D480A2C1AC6680078DDF0 /* SF-Pro-Display-Medium.otf */; };
-		270D480D2C1AC6700078DDF0 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 270D480C2C1AC6700078DDF0 /* SF-Pro-Display-Regular.otf */; };
 		270D480F2C1AC7540078DDF0 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D480E2C1AC7540078DDF0 /* Fonts.swift */; };
 		270D48112C1AC9320078DDF0 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D48102C1AC9320078DDF0 /* Colors.swift */; };
 		270D48132C1ACA2E0078DDF0 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D48122C1ACA2D0078DDF0 /* Images.swift */; };
+		270D48162C1ACBA00078DDF0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 270D48152C1ACBA00078DDF0 /* SnapKit */; };
+		270D48182C1ACBA00078DDF0 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 270D48172C1ACBA00078DDF0 /* SnapKit-Dynamic */; };
+		270D481B2C1ADDE20078DDF0 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 270D481A2C1ADDE20078DDF0 /* SF-Pro-Display-Bold.otf */; };
+		270D481D2C1ADDEB0078DDF0 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 270D481C2C1ADDEB0078DDF0 /* SF-Pro-Display-Medium.otf */; };
+		270D481F2C1ADDF30078DDF0 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 270D481E2C1ADDF30078DDF0 /* SF-Pro-Display-Regular.otf */; };
+		270D48212C1AE6610078DDF0 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D48202C1AE6610078DDF0 /* GradientButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +33,13 @@
 		270D47FA2C19C9BF0078DDF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		270D47FD2C19C9BF0078DDF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		270D47FF2C19C9BF0078DDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		270D48082C1AC65D0078DDF0 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
-		270D480A2C1AC6680078DDF0 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
-		270D480C2C1AC6700078DDF0 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 		270D480E2C1AC7540078DDF0 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		270D48102C1AC9320078DDF0 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		270D48122C1ACA2D0078DDF0 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		270D481A2C1ADDE20078DDF0 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		270D481C2C1ADDEB0078DDF0 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		270D481E2C1ADDF30078DDF0 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		270D48202C1AE6610078DDF0 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270D48162C1ACBA00078DDF0 /* SnapKit in Frameworks */,
+				270D48182C1ACBA00078DDF0 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +77,7 @@
 				270D48052C19D9B10078DDF0 /* App */,
 				270D48062C19D9C80078DDF0 /* Resources */,
 				270D47F22C19C9BE0078DDF0 /* MainViewController.swift */,
+				270D48202C1AE6610078DDF0 /* GradientButton.swift */,
 				270D47F72C19C9BE0078DDF0 /* AuthorizationTest.xcdatamodeld */,
 			);
 			path = AuthorizationTest;
@@ -91,7 +98,7 @@
 				270D48122C1ACA2D0078DDF0 /* Images.swift */,
 				270D48102C1AC9320078DDF0 /* Colors.swift */,
 				270D480E2C1AC7540078DDF0 /* Fonts.swift */,
-				270D48072C1AC6340078DDF0 /* Font */,
+				270D48072C1AC6340078DDF0 /* Fonts */,
 				270D47FA2C19C9BF0078DDF0 /* Assets.xcassets */,
 				270D47FC2C19C9BF0078DDF0 /* LaunchScreen.storyboard */,
 				270D47FF2C19C9BF0078DDF0 /* Info.plist */,
@@ -99,14 +106,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		270D48072C1AC6340078DDF0 /* Font */ = {
+		270D48072C1AC6340078DDF0 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				270D48082C1AC65D0078DDF0 /* SF-Pro-Display-Bold.otf */,
-				270D480A2C1AC6680078DDF0 /* SF-Pro-Display-Medium.otf */,
-				270D480C2C1AC6700078DDF0 /* SF-Pro-Display-Regular.otf */,
+				270D481E2C1ADDF30078DDF0 /* SF-Pro-Display-Regular.otf */,
+				270D481C2C1ADDEB0078DDF0 /* SF-Pro-Display-Medium.otf */,
+				270D481A2C1ADDE20078DDF0 /* SF-Pro-Display-Bold.otf */,
 			);
-			path = Font;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +132,10 @@
 			dependencies = (
 			);
 			name = AuthorizationTest;
+			packageProductDependencies = (
+				270D48152C1ACBA00078DDF0 /* SnapKit */,
+				270D48172C1ACBA00078DDF0 /* SnapKit-Dynamic */,
+			);
 			productName = AuthorizationTest;
 			productReference = 270D47EB2C19C9BE0078DDF0 /* AuthorizationTest.app */;
 			productType = "com.apple.product-type.application";
@@ -153,6 +164,9 @@
 				Base,
 			);
 			mainGroup = 270D47E22C19C9BD0078DDF0;
+			packageReferences = (
+				270D48142C1ACBA00078DDF0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 270D47EC2C19C9BE0078DDF0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -167,11 +181,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				270D480B2C1AC6680078DDF0 /* SF-Pro-Display-Medium.otf in Resources */,
+				270D481D2C1ADDEB0078DDF0 /* SF-Pro-Display-Medium.otf in Resources */,
 				270D47FE2C19C9BF0078DDF0 /* LaunchScreen.storyboard in Resources */,
 				270D47FB2C19C9BF0078DDF0 /* Assets.xcassets in Resources */,
-				270D480D2C1AC6700078DDF0 /* SF-Pro-Display-Regular.otf in Resources */,
-				270D48092C1AC65D0078DDF0 /* SF-Pro-Display-Bold.otf in Resources */,
+				270D481F2C1ADDF30078DDF0 /* SF-Pro-Display-Regular.otf in Resources */,
+				270D481B2C1ADDE20078DDF0 /* SF-Pro-Display-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				270D48132C1ACA2E0078DDF0 /* Images.swift in Sources */,
+				270D48212C1AE6610078DDF0 /* GradientButton.swift in Sources */,
 				270D47F32C19C9BE0078DDF0 /* MainViewController.swift in Sources */,
 				270D48112C1AC9320078DDF0 /* Colors.swift in Sources */,
 				270D480F2C1AC7540078DDF0 /* Fonts.swift in Sources */,
@@ -403,6 +418,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		270D48142C1ACBA00078DDF0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		270D48152C1ACBA00078DDF0 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 270D48142C1ACBA00078DDF0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		270D48172C1ACBA00078DDF0 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 270D48142C1ACBA00078DDF0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		270D47F72C19C9BE0078DDF0 /* AuthorizationTest.xcdatamodeld */ = {

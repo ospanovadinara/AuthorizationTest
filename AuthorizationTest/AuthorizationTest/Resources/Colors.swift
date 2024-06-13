@@ -23,6 +23,11 @@ extension ColorsProtocol {
 }
 
 enum Colors: String, ColorsProtocol {
-    case black = "0A0715"
-    case white = "E8E8E8"
+    case black = "090615"
+    case white = "FFFFFF"
+    case purple01 = "9358F7"
+    case purple02 = "7B78F2"
+    case blue01 = "6197EE"
+    case blue02 = "45B5E9"
+    case cyan = "10D7E2"
 }

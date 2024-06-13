@@ -18,6 +18,10 @@ extension FontsProtocol {
         return apply(size: 14)
     }
 
+    func s16() -> UIFont {
+        return apply(size: 16)
+    }
+
     func s17() -> UIFont {
         return apply(size: 17)
     }
@@ -43,7 +47,7 @@ extension FontsProtocol {
 
 // MARK: - Enum Fonts
 enum Fonts: String, FontsProtocol {
-    case regular = "SF-Pro-Display-Regular"
-    case medium = "SF-Pro-Display-Medium"
-    case bold = "SF-Pro-Display-Bold"
+    case regular = "SFProDisplay-Regular"
+    case medium = "SFProDisplay-Medium"
+    case bold = "SFProDisplay-Bold"
 }
