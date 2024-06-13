@@ -22,6 +22,8 @@
 		270D481D2C1ADDEB0078DDF0 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 270D481C2C1ADDEB0078DDF0 /* SF-Pro-Display-Medium.otf */; };
 		270D481F2C1ADDF30078DDF0 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 270D481E2C1ADDF30078DDF0 /* SF-Pro-Display-Regular.otf */; };
 		270D48212C1AE6610078DDF0 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D48202C1AE6610078DDF0 /* GradientButton.swift */; };
+		270D48282C1AED860078DDF0 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D48272C1AED860078DDF0 /* RegistrationViewController.swift */; };
+		270D482A2C1B0C9C0078DDF0 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D48292C1B0C9C0078DDF0 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		270D481C2C1ADDEB0078DDF0 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
 		270D481E2C1ADDF30078DDF0 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 		270D48202C1AE6610078DDF0 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		270D48272C1AED860078DDF0 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		270D48292C1B0C9C0078DDF0 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +80,8 @@
 			children = (
 				270D48052C19D9B10078DDF0 /* App */,
 				270D48062C19D9C80078DDF0 /* Resources */,
-				270D47F22C19C9BE0078DDF0 /* MainViewController.swift */,
-				270D48202C1AE6610078DDF0 /* GradientButton.swift */,
+				270D48232C1AED200078DDF0 /* Extensions */,
+				270D48242C1AED320078DDF0 /* Screens */,
 				270D47F72C19C9BE0078DDF0 /* AuthorizationTest.xcdatamodeld */,
 			);
 			path = AuthorizationTest;
@@ -95,13 +99,11 @@
 		270D48062C19D9C80078DDF0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				270D48222C1AEC9D0078DDF0 /* AppResources */,
+				270D48072C1AC6340078DDF0 /* Fonts */,
 				270D48122C1ACA2D0078DDF0 /* Images.swift */,
 				270D48102C1AC9320078DDF0 /* Colors.swift */,
 				270D480E2C1AC7540078DDF0 /* Fonts.swift */,
-				270D48072C1AC6340078DDF0 /* Fonts */,
-				270D47FA2C19C9BF0078DDF0 /* Assets.xcassets */,
-				270D47FC2C19C9BF0078DDF0 /* LaunchScreen.storyboard */,
-				270D47FF2C19C9BF0078DDF0 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -114,6 +116,50 @@
 				270D481A2C1ADDE20078DDF0 /* SF-Pro-Display-Bold.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		270D48222C1AEC9D0078DDF0 /* AppResources */ = {
+			isa = PBXGroup;
+			children = (
+				270D47FA2C19C9BF0078DDF0 /* Assets.xcassets */,
+				270D47FC2C19C9BF0078DDF0 /* LaunchScreen.storyboard */,
+				270D47FF2C19C9BF0078DDF0 /* Info.plist */,
+			);
+			path = AppResources;
+			sourceTree = "<group>";
+		};
+		270D48232C1AED200078DDF0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				270D48202C1AE6610078DDF0 /* GradientButton.swift */,
+				270D48292C1B0C9C0078DDF0 /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		270D48242C1AED320078DDF0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				270D48252C1AED590078DDF0 /* Main */,
+				270D48262C1AED6D0078DDF0 /* Registration */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		270D48252C1AED590078DDF0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				270D47F22C19C9BE0078DDF0 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		270D48262C1AED6D0078DDF0 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				270D48272C1AED860078DDF0 /* RegistrationViewController.swift */,
+			);
+			path = Registration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,9 +242,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270D482A2C1B0C9C0078DDF0 /* UIView.swift in Sources */,
 				270D48132C1ACA2E0078DDF0 /* Images.swift in Sources */,
 				270D48212C1AE6610078DDF0 /* GradientButton.swift in Sources */,
 				270D47F32C19C9BE0078DDF0 /* MainViewController.swift in Sources */,
+				270D48282C1AED860078DDF0 /* RegistrationViewController.swift in Sources */,
 				270D48112C1AC9320078DDF0 /* Colors.swift in Sources */,
 				270D480F2C1AC7540078DDF0 /* Fonts.swift in Sources */,
 				270D47EF2C19C9BE0078DDF0 /* AppDelegate.swift in Sources */,
@@ -349,7 +397,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2YW3Q5CP4C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AuthorizationTest/Resources/Info.plist;
+				INFOPLIST_FILE = AuthorizationTest/Resources/AppResources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -377,7 +425,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2YW3Q5CP4C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AuthorizationTest/Resources/Info.plist;
+				INFOPLIST_FILE = AuthorizationTest/Resources/AppResources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";

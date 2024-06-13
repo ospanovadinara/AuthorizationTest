@@ -29,4 +29,6 @@ extension ImagesProtocol {
 
 enum Images: String, ImagesProtocol {
     case icon = "icon"
+    case arrowLeft = "arrow_left"
+    case arrowDown = "arrow_down"
 }

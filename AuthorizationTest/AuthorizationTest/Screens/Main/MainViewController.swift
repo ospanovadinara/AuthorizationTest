@@ -52,7 +52,6 @@ final class MainViewController: UIViewController {
         button.setTitle("Войти по коду приложения", for: .normal)
         button.setTitleColor(Colors.white.uiColor, for: .normal)
         button.titleLabel?.font = Fonts.regular.s16()
-        button.backgroundColor = Colors.white.uiColor
         button.layer.cornerRadius = 30
         button.layer.masksToBounds = true
         button.addTarget(self, action: #selector(enterButtonTapped), for: .touchUpInside)
@@ -72,7 +71,7 @@ final class MainViewController: UIViewController {
         let button = UIButton(type: .system)
         button.setTitle("Зарегистрируйтесь сейчас", for: .normal)
         button.setTitleColor(UIColor.systemBlue, for: .normal)
-        button.addTarget(self, action: #selector(onRegisterNowButtonDidTap), for: .touchUpInside)
+        button.addTarget(self, action: #selector(registerNowButtonTapped), for: .touchUpInside)
         return button
     }()
 
@@ -83,6 +82,7 @@ final class MainViewController: UIViewController {
         return stackView
     }()
 
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
@@ -145,12 +145,14 @@ private extension MainViewController {
         }
     }
 
+    // MARK: - Actions
     @objc func enterButtonTapped() {
 
     }
 
-    @objc func onRegisterNowButtonDidTap() {
-
+    @objc func registerNowButtonTapped() {
+        let controller = RegistrationViewController()
+        navigationController?.pushViewController(controller, animated: true)
     }
 }
 

@@ -14,6 +14,10 @@ protocol FontsProtocol {
 
 // MARK: - Extension FontsProtocol
 extension FontsProtocol {
+    func s13() -> UIFont {
+        return apply(size: 13)
+    }
+
     func s14() -> UIFont {
         return apply(size: 14)
     }
@@ -29,6 +33,11 @@ extension FontsProtocol {
     func s19() -> UIFont {
         return apply(size: 19)
     }
+
+    func s20() -> UIFont {
+        return apply(size: 20)
+    }
+
 
     func s34() -> UIFont {
         return apply(size: 34)
